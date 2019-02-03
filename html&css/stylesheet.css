@@ -1,0 +1,196 @@
+@font-face {
+  font-family: FuturaPT ;
+  src: url('Futura_PT/FuturaPTDemi.otf');
+}
+@font-face {
+  font-family: coresans ;
+  src: url('Futura_PT/coresans.otf');
+}
+
+#first_block {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(snow1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+    /*background-size: contain; */
+    width: 550px;
+    height: 450px;
+    max-height: 550px;
+    max-width: 526px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-8px;
+    position:relative;
+}
+
+
+body{
+    font-family: FuturaPT, sans-serif;
+}
+
+
+.navigation_bar {
+  margin: 0;
+  padding: 0;
+  display: inline-block; 
+  color: white;
+  text-align: center;
+}
+
+.nb_bar {
+    
+    text-align: center;
+	font-size: 6px;
+    top: 25px;
+    left:300px;
+	letter-spacing: 1px;
+	font-weight: bold;
+    position: absolute;
+}
+
+
+.snow_board {
+    
+    color: white;
+    font-size: 15px;
+    left: 40px;
+    top: 16px;
+	letter-spacing: 1.8px;
+	font-weight: bold;
+    position: absolute;
+}
+
+b {
+    text-align: center;
+    top: 113px;
+    left  : 103px;
+    font-size: 45px;
+    word-wrap: break-word;
+    width: 300px;
+    font-weight: 700px;
+	letter-spacing: 2px;
+    text-align: center;
+    color:white;
+    position: absolute;
+}
+
+.para1{
+font-family: coresans sans-serif;
+top: 240px;
+left: 90px;
+text-align: center;
+color: #f2f2f2;
+line-height: 18px;
+letter-spacing: 1px;
+font-size: 11px;
+font-weight:2px;
+position: absolute
+}
+
+button{
+
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 13px 18px;
+  text-align: center;
+  line-height: 14x;
+letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6px;
+  top: 335px;
+    left: 220px;
+  font-weight: bold;
+  position: absolute;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.second_page {
+    text-align: center;
+}
+
+.s_page_container {
+      margin: 0 auto;
+    display: inline-block;}
+
+.grid_container {
+  width: 700px;
+  height: 450px;
+  padding-top: 6%;
+  margin: auto;
+  padding-left: 16%;
+}
+
+.grid_container > img {
+text-align: center;
+float: left;
+padding-left: 8px;
+padding-top:5px;
+margin: 0.4%;
+width: 220px;
+height: 200px;
+object-fit: cover;
+}
+
+.page3{
+    text-align: ;left
+    padding-top:60px;
+    padding-left:180px;
+}
+
+.page3_para2 {
+    font-family: coresans sans-serif;
+    text-align: left;
+    font-size: 11px;
+    padding-top:12px;
+    color: dimgrey;
+    left: 150px;
+    line-height: 1.3;
+    top:1000px;
+    
+}
+
+.page4 {
+    font-family: coresans sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(http://csci571.com/hw/hw3/images/snow6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 800px 600px ; 
+    width: 550px;
+    height: 550px;
+    /* max-height: 550px;
+    max-width: 526px; */
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+
+.page4_text{
+font-family: coresans sans-serif;
+top: 215px;
+left: 100px;
+text-align: center;
+color: #f2f2f2;
+line-height: 18px;
+letter-spacing: 1px;
+font-size: 11px;
+font-weight:2px;
+position: absolute
+}
+.text_para2 {
+    top: 350px;
+    font-family: coresans sans-serif;
+    line-height: 12px;
+letter-spacing: 1px;
+font-size: 11px;
+font-weight:2px;
+}
